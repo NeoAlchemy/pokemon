@@ -320,41 +320,82 @@ cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 `;
             case "image1":
-            case "pidgeyStill":return img`
-.......f...........
-...ff.fef..........
-...f5feef.ff...fff.
-...f5feeff5f.ffeeff
-...f5eeee55ffefefef
-..f5eeee5555feffeef
-..f5eee5555fffffef.
-..f5ee555ffeeef5f..
-...ff551ffeeee555f.
-..f33f11ffeeee555f.
-.f3333fffffeeee5f..
-.f33fff555feeeeef..
-..ff33f555ffeeef...
-....ff55555ffff....
-......ff5ff3f......
-........ff1f.......
-.........ff........
+            case "pidgynum":return img`
+......f...........
+..ff.fef..........
+..f5feef.ff...fff.
+..f5feeff5f.ffeeff
+..f5eeee55ffefefef
+.f5eeee5555feffeef
+.f5eee5555fffffef.
+.f5ee555ffeeef5f..
+..ff551ffeeee555f.
+.f33ff1ffeeee555f.
+f3333fffffeeee5f..
+f33fff555feeeeef..
+.ff33f555ffeeef...
+...ff55555ffff....
+.....ff5ff3f......
+.......ff1f.......
+........ff........
 `;
-            case "image2":return img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
+            case "image2":
+            case "sandshrewnum":return img`
+...f................
+..f5ffffff..........
+..f5555555ff........
+.f555555f555f.......
+.f55555f5f555f....f.
+f15555555f5555f..f5f
+ff555555555555fff55f
+f55551f55555555f555f
+f1555ff55ff5555f55f.
+.f11115ff1555555f5f.
+..fff1111f155555ff..
+.....f1111ff5555ff..
+......f111155555f...
+.....f1f1115555f....
+......ffff1555ff....
+..........ff5ff.....
+..........f151f.....
+...........fff......
+....................
+....................
+`;
+            case "image13":return img`
+. . . . . f f f f . . . . . . . . . 
+. . . . f 5 5 5 5 f . . . . . . . . 
+. . . f 5 5 5 5 5 5 f . . . . . . . 
+. . . f 5 5 5 5 5 5 5 f . . . . . . 
+. . f 5 5 5 5 5 5 5 5 f . . . . . . 
+. . f 5 5 5 1 f 5 5 5 f . . . . . . 
+. . f 5 5 5 f f 5 5 5 f . f f f f f 
+. . f f 5 5 5 5 5 5 f f f 7 7 7 7 f 
+. f b b f 5 5 5 f f 1 f 7 7 7 7 7 f 
+. . f e e f f f f 7 f f 7 7 7 7 f . 
+. . . f f f 7 7 7 f f f f f f f . . 
+. . . . . . f f f . f f f . . . . . 
+. . . . . . . . . f f . f f . . . . 
+. . . . . . . . f f . . . f . . . . 
+. . . . . . . f . f . . . f f . . . 
+. . . . . . . . . . . . f . f . . . 
+`;
+            case "image14":return img`
+. . . . f f f . . . . . . . . . 
+. . . f 7 7 7 f . f . . . . . . 
+. . . . f 7 7 7 f 7 f . . . . . 
+. f . f 7 f 7 7 f 7 f f . . . . 
+f 7 f f f f 7 7 7 f f 7 f . . . 
+f 7 7 7 7 f f 7 7 f 7 7 f . . . 
+. f 7 7 7 7 f 7 7 f 7 f . . . . 
+. . f f f 7 f 7 f 6 f . . . . . 
+. . . f 8 6 6 6 6 6 f . . . . . 
+. . f 8 6 6 6 6 6 f 6 f . . . . 
+. . f 8 6 6 f 6 6 6 6 f . . . . 
+. . f 8 6 6 6 2 2 6 6 f . . . . 
+. . . f 8 6 6 2 6 f f . . . . . 
+. . . . f f f f f f . . . . . . 
+. . . . f f . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `;
         }
